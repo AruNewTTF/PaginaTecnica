@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donde el Pipe | Soporte Técnico & Mantenimiento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Donde el <span>Pipe</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#servicios-generales">Servicios</a></li>
+                    <li><a href="#mantenimiento">Mantenimiento</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        
+
+        <!-- Bloque 1: Servicios Generales -->
+        <section id="servicios-generales" class="section">
+            <div class="container">
+                <h2>Servicios Generales</h2>
+                <div class="servicios-grid" id="grid-generales"></div>
+            </div>
+        </section>
+
+        <!-- Bloque 2: Área de Mantenimiento -->
+        <section id="mantenimiento" class="section bg-alt">
+            <div class="container">
+                <h2>Área de Mantenimiento</h2>
+                
+                <div class="mantenimiento-split">
+                    <!-- Subsección Notebook -->
+                    <div class="area-grupo">
+                        <h3 class="area-titulo">💻 Notebook</h3>
+                        <div class="servicios-grid" id="grid-notebook"></div>
+                    </div>
+
+                    <!-- Subsección Escritorio -->
+                    <div class="area-grupo">
+                        <h3 class="area-titulo">🖥️ Escritorio</h3>
+                        <div class="servicios-grid" id="grid-escritorio"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bloque 3: Contacto Directo -->
+        <section id="contacto" class="section">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p class="contacto-subtitulo">Escríbeme directamente por cualquiera de estos canales para agendar o consultar por tu equipo:</p>
+                
+                <div class="contacto-grid">
+                    <a href="https://wa.me/56920864890" target="_blank" rel="noopener noreferrer" class="contacto-card whatsapp">
+                        <h3>WhatsApp</h3>
+                        <p class="contacto-dato">+56 9 2086 4890</p>
+                        <span class="contacto-accion">Enviar mensaje &rarr;</span>
+                    </a>
+
+                    <!--
+                    <a href="https://instagram.com/tu_usuario" target="_blank" rel="noopener noreferrer" class="contacto-card instagram">
+                        <h3>Instagram</h3>
+                        <p class="contacto-dato">@tu_usuario</p>
+                        <span class="contacto-accion">Ver perfil &rarr;</span>
+                    </a>
+                    -->
+
+                    <a href="https://m.me/felipe.ponce.5648" target="_blank" rel="noopener noreferrer" class="contacto-card messenger">
+                        <h3>Facebook</h3>
+                        <p class="contacto-dato">/Pipe</p>
+                        <span class="contacto-accion">Ir a Facebook &rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Ventana Modal Detalle de Servicio -->
+    <div id="modal-servicio" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-cerrar" id="btn-cerrar-modal">&times;</button>
+            <div class="modal-body" id="modal-body-content">
+                <!-- Inyectado dinámicamente con JS -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p> 2026 Donde el Pipe — Servicio Técnico.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
