@@ -9,7 +9,7 @@ const serviciosData = [
         categoria: "Software",
         aDomicilio: true,
         descripcion: "Instalación limpia de Windows 10 o Windows 11 (ambas versiones Pro Edition activadas).",
-        detalleCompleto: "Se formatea el equipo por completo y se instala Windows 10 o Windows 11 según lo que decida usted.",
+        detalleCompleto: "Se formatea el equipo por completo y se instala Windows 10 o Windows 11 según preferencia.",
         imagen: "https://static.allthings.how/wp-content/uploads/ghost-featured/wordpress/2021/07/allthings.how-how-to-use-windows-11-windows-11-logo-dark.png",
         precio: 20000
     },
@@ -19,8 +19,8 @@ const serviciosData = [
         titulo: "Instalación Suite de Office LTSC 2024",
         categoria: "Software",
         aDomicilio: true,
-        descripcion: "Instalación y activación completa de paquetería Office LTSC 2024 (Word, Excel, PowerPoint, etc.) lista para trabajar.",
-        detalleCompleto: "Instalación de la versión más reciente y estable de Microsoft Office LTSC 2024. Incluye Word, Excel, PowerPoint y Outlook activados de forma permanente y listos para optimizar tus trabajos o estudios.",
+        descripcion: "Instalación y activación completa de paquetería Office LTSC 2024 (Word, Excel, PowerPoint.) lista para trabajar.",
+        detalleCompleto: "Instalación de la versión más reciente y estable de Microsoft Office LTSC 2024. Incluye Word, Excel y PowerPoint activados de forma permanente y listos para tus trabajos o estudios.",
         imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKg5nOCSRhUQF11qs-PPJd1z6toDz0HuiowpqHE9TDdz6zxMUm1DJqFtRF&s=10",
         precio: 20000
     },
@@ -30,7 +30,7 @@ const serviciosData = [
         titulo: "Instalación de Componentes",
         categoria: "Hardware",
         aDomicilio: true,
-        descripcion: "Montaje de memorias RAM, discos duros (HDD), unidades de estado sólido (SSD), etc.",
+        descripcion: "Montaje de memorias RAM, discos duros (HDD), unidades de estado sólido (SSD).",
         detalleCompleto: "Servicio de montaje físico y validación de compatibilidad para memorias RAM, unidades de almacenamiento NVMe/SATA y tarjetas gráficas.",
         imagen: "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=600&q=80",
         precio: 15000
